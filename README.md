@@ -1,7 +1,6 @@
-# React Native Starter Package
+# Sanchayan : React Native starter package
 
-This starter package is designed to save you time setting up a new React Native project. It comes with several commonly used dependencies pre-integrated, so you can clone the repository and get started right away.
-
+Sanchayan is starter package is designed to save you time setting up a new React Native project. It comes with several commonly used dependencies pre-integrated, so you can clone the repository and get started right away.
 
 ## Features
 
@@ -12,7 +11,7 @@ This project comes with the following pre-integrated features:
 - **Bottom Tab Navigation**: Easily implement bottom tab navigation in your app.
 - **React Native Vector Icons**: All icon libraries supported by React Native Vector Icons are included.
 - **React Native SVG**: Allows you to create custom SVG icons for your app.
-- **Custom Fonts**: This package includes support for several Devanagari and Roman script fonts. 
+- **Custom Fonts**: This package includes support for several Devanagari and Roman script fonts.
 
 ## Run Locally
 
@@ -41,7 +40,9 @@ Start the metro bundler
 ```
 
 ## Custom Fonts
-Supports 
+
+Supports
+
 - Poppins (Default)
 - Baloo2
 - Roboto
@@ -56,13 +57,15 @@ Supports
 ```javascript
 import Text from '../Text/Text';
 
-<Text style={styles.text} fontFamiliy={"Poppins"} fontWeight="500">
-        React Native Starter Package
-</Text>
+<Text style={styles.text} fontFamiliy={'Poppins'} fontWeight="500">
+  React Native Starter Package
+</Text>;
 ```
 
 ## Vector Icons
-Supports 
+
+Supports
+
 - Iconicons (Recommended)
 - Feather (Recommended)
 - Foundation
@@ -73,12 +76,13 @@ Supports
 - MaterialIcons
 - MaterialCommunityIcons
 - SimpleLineIcons
+
 ```javascript
 import Icon, {Icons} from '../Icons/Icons';
 
-<Icon type={Icons.Iconicons} name="home" 
-color="black" style={styles.icon} />
+<Icon type={Icons.Iconicons} name="home" color="black" style={styles.icon} />;
 ```
+
 ## React Native SVG (Icons or any svg...)
 
 ```javascript
@@ -108,9 +112,8 @@ const TouristTemple = ({color}) => {
   );
 };
 
-export {TouristTemple}
+export {TouristTemple};
 ```
-
 
 ```javascript
 <Tab.Screen
@@ -139,6 +142,7 @@ The splash screen image is stored as `splash.jpg` in `android/app/src/main/res/d
 ## Changing the App Icon
 
 To change the app icon, upload your desired logo to this [website](https://www.appicon.co/#app-icon) to generate the app icons for Android. Then, store them in the `android/app/src/main/res` directory, replacing the existing icons in `mipmap-hdpi`, `mipmap-mdpi`, `mipmap-xhdpi`, `mipmap-xxhdpi`, and `mipmap-xxxhdpi`.
+
 ## Important Links and Documentations
 
 - React Navigation : [Navigation Container](https://reactnavigation.org/docs/getting-started/), [Stack Nav](https://reactnavigation.org/docs/stack-navigator/), [Bottom Tab Nav](https://reactnavigation.org/docs/bottom-tab-navigator/)
@@ -149,7 +153,6 @@ To change the app icon, upload your desired logo to this [website](https://www.a
 - Changing Package Name & Display Name: [Android Package Name](https://dev.to/karanpratapsingh/quick-guide-for-updating-package-name-in-react-native-3ei3), [Display Name](https://hemanthkollanur.medium.com/how-to-change-rename-the-app-name-in-react-native-in-android-and-ios-7486653b3362#:~:text=React%20Native%20series&text=To%20change%20the%20display%20name,with%20your%20desired%20app%20name.)
 - Integrating Custom Fonts : [Documentation](https://blog.logrocket.com/adding-custom-fonts-react-native/), [Google Fonts](https://fonts.google.com/)
 - Deployment and Production : [Building Android APK](https://medium.com/geekculture/react-native-generate-apk-debug-and-release-apk-4e9981a2ea51)
-
 
 ## Authors
 
