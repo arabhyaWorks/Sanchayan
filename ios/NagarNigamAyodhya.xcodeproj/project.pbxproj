@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* NagarNigamAyodhyaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NagarNigamAyodhyaTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-NagarNigamAyodhya.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-NagarNigamAyodhya.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-NagarNigamAyodhya-NagarNigamAyodhyaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-NagarNigamAyodhya-NagarNigamAyodhyaTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B58F5B8BCEAF488AABC9215A /* Baloo2-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31697010C1754A9E81FD1513 /* Baloo2-VariableFont_wght.ttf */; };
+		80A0B936A06A41598CCF0CBA /* Baloo2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2DE198D6824B93A96B75B6 /* Baloo2-Bold.ttf */; };
+		285549D78665448AADC89088 /* Baloo2-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B02935201FE48F48B693F0E /* Baloo2-ExtraBold.ttf */; };
+		8D0D750D60044DA7846AFC64 /* Baloo2-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 889D255C099848C39B005A6C /* Baloo2-Medium.ttf */; };
+		7FCCF2CFA6F846228103CC81 /* Baloo2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13FB12E4F58D4716ADD259A6 /* Baloo2-Regular.ttf */; };
+		A6DB40BEE8AA40FC9867C270 /* Baloo2-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5263709BC5BD433998A47964 /* Baloo2-SemiBold.ttf */; };
+		4AF590BE743546F3B1B5473B /* Laila-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABF721C49540A085AD30F2 /* Laila-Bold.ttf */; };
+		7B798B3811E34B8EBC4F0D8C /* Laila-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6567980B1CAB4F2B921214FE /* Laila-Light.ttf */; };
+		C292FB3C1EC740F3A2345C35 /* Laila-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8326069D7F944F3F922ED255 /* Laila-Medium.ttf */; };
+		78434ED0402D4CA1ADD1B357 /* Laila-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EE83DD4A5A942518B4D40FE /* Laila-Regular.ttf */; };
+		01219C903C0649EC8D2D76FF /* Laila-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC661B69D29647EAA1A0202C /* Laila-SemiBold.ttf */; };
+		6AD5F52C3B2C44348972AF24 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3376B0F759374F4B99A4260D /* Poppins-Black.ttf */; };
+		E88B0A7A5B1D4ECAA95F77B7 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3ACC06E55B94C3DBE4FFAFE /* Poppins-Bold.ttf */; };
+		73D1D0FEFCF44A64BFE30E10 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A945B925F0341EAB85E7C3A /* Poppins-ExtraBold.ttf */; };
+		5ADDB4EA432D4714A01CF714 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4560DB3E67E845C89F8F8B4E /* Poppins-ExtraLight.ttf */; };
+		3FD44D34F09A4973A9AD9F9E /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54B8772660A842CFBD58F987 /* Poppins-Light.ttf */; };
+		7A367925706C4830A26F3155 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AABA309B3C9445A3BE85B3C1 /* Poppins-Medium.ttf */; };
+		92E7B4491A5C4B33B0E4C011 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFE724826C1245EB805824B6 /* Poppins-Regular.ttf */; };
+		2869692ECE70463592A5D89C /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7719F07AAEB42988B4695CA /* Poppins-SemiBold.ttf */; };
+		7DFCB27EE114441BAC2118E6 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AB31E16F3F84C03BC885896 /* Poppins-Thin.ttf */; };
+		D1DEDE682B364266A86A9326 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 771BB52CE90D454EA61868DF /* Roboto-Black.ttf */; };
+		6874EB4FB52B4135994527A4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8B1719828F0478DBB08D1AF /* Roboto-Bold.ttf */; };
+		80225F79677B41788A3ACE1B /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C9BA41757F64D4FB20C039B /* Roboto-Light.ttf */; };
+		1B5D3C1BE2154B98AED802D4 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA58E85123F44FFD98507AA9 /* Roboto-Medium.ttf */; };
+		2FE57C42C937492E97A0D3AD /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D068C88ACEE9498E8294FBDB /* Roboto-Regular.ttf */; };
+		3591B6EF73144478BA254BFB /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25D5E4B851AD4C52A6730A6A /* Roboto-Thin.ttf */; };
+		5FA0FC2051CE4F59A10220AC /* RozhaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1BE59B21674931954D5B37 /* RozhaOne-Regular.ttf */; };
+		A29C1E98159C4F9A828E1FC0 /* Sahitya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FAC0B21D48342689B8E7C55 /* Sahitya-Bold.ttf */; };
+		F14E69E579664F48820651E0 /* Sahitya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC385BF4DFEC41BC89FE6D94 /* Sahitya-Regular.ttf */; };
+		A21A786EB9474EDE98335A6B /* Sura-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E53AE37306F4FCCA2C252E4 /* Sura-Bold.ttf */; };
+		74A57DB66D8240ABBC187B06 /* Sura-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F82A2A638F647C9848950DF /* Sura-Regular.ttf */; };
+		EAD76E6C0FAA48FB9CBA636D /* TiroDevanagariHindi-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39A6F2C8950A4BF197145480 /* TiroDevanagariHindi-Italic.ttf */; };
+		3C31592BDFEF4373A9B59889 /* TiroDevanagariHindi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 854F4925E8104E999A5303DA /* TiroDevanagariHindi-Regular.ttf */; };
+		09E7954D9E6B4A0C92D3D7EB /* VesperLibre-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A968DBDA1CCE459EAB9C6B69 /* VesperLibre-Black.ttf */; };
+		6D23FF51AADB47D2BD6AA3F9 /* VesperLibre-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E86695EBDD5749CA834FC71F /* VesperLibre-Bold.ttf */; };
+		3D3E63732D0647639BE23E1A /* VesperLibre-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DBA247B7A654EBF8504C81A /* VesperLibre-Medium.ttf */; };
+		41E3A6C1393B4A41BB21EEF7 /* VesperLibre-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A46E0FB6BC9439D9CC05294 /* VesperLibre-Regular.ttf */; };
+		8D035FCBAD714DD88718C886 /* PlayfairDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05480456C27048488D61D6A5 /* PlayfairDisplay-Black.ttf */; };
+		3A9D9A2CA9FD44E5A74A75DB /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B059C605B9844885A3EC4033 /* PlayfairDisplay-Bold.ttf */; };
+		2976875DB98F45F6B2F7FF78 /* PlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BC155895E66447F954A5BE7 /* PlayfairDisplay-ExtraBold.ttf */; };
+		ED769205B2F24645AE029F7E /* PlayfairDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2FE8BE8B50548D3AF295C34 /* PlayfairDisplay-Medium.ttf */; };
+		E5CD5F7901C145408220E41E /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1194D095E12402BA0F6D4E3 /* PlayfairDisplay-Regular.ttf */; };
+		D5150E51CACB4FC1AF953741 /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45C0B86684624B0FAC12DEC0 /* PlayfairDisplay-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = NagarNigamAyodhya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* NagarNigamAyodhyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NagarNigamAyodhyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* NagarNigamAyodhyaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NagarNigamAyodhyaTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* NagarNigamAyodhya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NagarNigamAyodhya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NagarNigamAyodhya/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = NagarNigamAyodhya/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NagarNigamAyodhya/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NagarNigamAyodhya/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NagarNigamAyodhya/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-NagarNigamAyodhya-NagarNigamAyodhyaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NagarNigamAyodhya-NagarNigamAyodhyaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-NagarNigamAyodhya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NagarNigamAyodhya.debug.xcconfig"; path = "Target Support Files/Pods-NagarNigamAyodhya/Pods-NagarNigamAyodhya.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-NagarNigamAyodhya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NagarNigamAyodhya.release.xcconfig"; path = "Target Support Files/Pods-NagarNigamAyodhya/Pods-NagarNigamAyodhya.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests.debug.xcconfig"; path = "Target Support Files/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-NagarNigamAyodhya.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NagarNigamAyodhya.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NagarNigamAyodhya/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests.release.xcconfig"; path = "Target Support Files/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		31697010C1754A9E81FD1513 /* Baloo2-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Baloo2-VariableFont_wght.ttf"; path = "../assests/fonts/Baloo2-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C2DE198D6824B93A96B75B6 /* Baloo2-Bold.ttf */ = {isa = PBXFileReference; name = "Baloo2-Bold.ttf"; path = "../assests/fonts/Baloo2-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B02935201FE48F48B693F0E /* Baloo2-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Baloo2-ExtraBold.ttf"; path = "../assests/fonts/Baloo2-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		889D255C099848C39B005A6C /* Baloo2-Medium.ttf */ = {isa = PBXFileReference; name = "Baloo2-Medium.ttf"; path = "../assests/fonts/Baloo2-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		13FB12E4F58D4716ADD259A6 /* Baloo2-Regular.ttf */ = {isa = PBXFileReference; name = "Baloo2-Regular.ttf"; path = "../assests/fonts/Baloo2-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5263709BC5BD433998A47964 /* Baloo2-SemiBold.ttf */ = {isa = PBXFileReference; name = "Baloo2-SemiBold.ttf"; path = "../assests/fonts/Baloo2-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2EABF721C49540A085AD30F2 /* Laila-Bold.ttf */ = {isa = PBXFileReference; name = "Laila-Bold.ttf"; path = "../assests/fonts/Laila-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6567980B1CAB4F2B921214FE /* Laila-Light.ttf */ = {isa = PBXFileReference; name = "Laila-Light.ttf"; path = "../assests/fonts/Laila-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8326069D7F944F3F922ED255 /* Laila-Medium.ttf */ = {isa = PBXFileReference; name = "Laila-Medium.ttf"; path = "../assests/fonts/Laila-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1EE83DD4A5A942518B4D40FE /* Laila-Regular.ttf */ = {isa = PBXFileReference; name = "Laila-Regular.ttf"; path = "../assests/fonts/Laila-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC661B69D29647EAA1A0202C /* Laila-SemiBold.ttf */ = {isa = PBXFileReference; name = "Laila-SemiBold.ttf"; path = "../assests/fonts/Laila-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3376B0F759374F4B99A4260D /* Poppins-Black.ttf */ = {isa = PBXFileReference; name = "Poppins-Black.ttf"; path = "../assests/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F3ACC06E55B94C3DBE4FFAFE /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../assests/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6A945B925F0341EAB85E7C3A /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBold.ttf"; path = "../assests/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4560DB3E67E845C89F8F8B4E /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraLight.ttf"; path = "../assests/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54B8772660A842CFBD58F987 /* Poppins-Light.ttf */ = {isa = PBXFileReference; name = "Poppins-Light.ttf"; path = "../assests/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AABA309B3C9445A3BE85B3C1 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; name = "Poppins-Medium.ttf"; path = "../assests/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EFE724826C1245EB805824B6 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../assests/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E7719F07AAEB42988B4695CA /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../assests/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0AB31E16F3F84C03BC885896 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../assests/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		771BB52CE90D454EA61868DF /* Roboto-Black.ttf */ = {isa = PBXFileReference; name = "Roboto-Black.ttf"; path = "../assests/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A8B1719828F0478DBB08D1AF /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../assests/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C9BA41757F64D4FB20C039B /* Roboto-Light.ttf */ = {isa = PBXFileReference; name = "Roboto-Light.ttf"; path = "../assests/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA58E85123F44FFD98507AA9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../assests/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D068C88ACEE9498E8294FBDB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../assests/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		25D5E4B851AD4C52A6730A6A /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../assests/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A1BE59B21674931954D5B37 /* RozhaOne-Regular.ttf */ = {isa = PBXFileReference; name = "RozhaOne-Regular.ttf"; path = "../assests/fonts/RozhaOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5FAC0B21D48342689B8E7C55 /* Sahitya-Bold.ttf */ = {isa = PBXFileReference; name = "Sahitya-Bold.ttf"; path = "../assests/fonts/Sahitya-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC385BF4DFEC41BC89FE6D94 /* Sahitya-Regular.ttf */ = {isa = PBXFileReference; name = "Sahitya-Regular.ttf"; path = "../assests/fonts/Sahitya-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0E53AE37306F4FCCA2C252E4 /* Sura-Bold.ttf */ = {isa = PBXFileReference; name = "Sura-Bold.ttf"; path = "../assests/fonts/Sura-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F82A2A638F647C9848950DF /* Sura-Regular.ttf */ = {isa = PBXFileReference; name = "Sura-Regular.ttf"; path = "../assests/fonts/Sura-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		39A6F2C8950A4BF197145480 /* TiroDevanagariHindi-Italic.ttf */ = {isa = PBXFileReference; name = "TiroDevanagariHindi-Italic.ttf"; path = "../assests/fonts/TiroDevanagariHindi-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		854F4925E8104E999A5303DA /* TiroDevanagariHindi-Regular.ttf */ = {isa = PBXFileReference; name = "TiroDevanagariHindi-Regular.ttf"; path = "../assests/fonts/TiroDevanagariHindi-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A968DBDA1CCE459EAB9C6B69 /* VesperLibre-Black.ttf */ = {isa = PBXFileReference; name = "VesperLibre-Black.ttf"; path = "../assests/fonts/VesperLibre-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E86695EBDD5749CA834FC71F /* VesperLibre-Bold.ttf */ = {isa = PBXFileReference; name = "VesperLibre-Bold.ttf"; path = "../assests/fonts/VesperLibre-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0DBA247B7A654EBF8504C81A /* VesperLibre-Medium.ttf */ = {isa = PBXFileReference; name = "VesperLibre-Medium.ttf"; path = "../assests/fonts/VesperLibre-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A46E0FB6BC9439D9CC05294 /* VesperLibre-Regular.ttf */ = {isa = PBXFileReference; name = "VesperLibre-Regular.ttf"; path = "../assests/fonts/VesperLibre-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		05480456C27048488D61D6A5 /* PlayfairDisplay-Black.ttf */ = {isa = PBXFileReference; name = "PlayfairDisplay-Black.ttf"; path = "../assests/fonts/PlayfairDisplay-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B059C605B9844885A3EC4033 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; name = "PlayfairDisplay-Bold.ttf"; path = "../assests/fonts/PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5BC155895E66447F954A5BE7 /* PlayfairDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; name = "PlayfairDisplay-ExtraBold.ttf"; path = "../assests/fonts/PlayfairDisplay-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C2FE8BE8B50548D3AF295C34 /* PlayfairDisplay-Medium.ttf */ = {isa = PBXFileReference; name = "PlayfairDisplay-Medium.ttf"; path = "../assests/fonts/PlayfairDisplay-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B1194D095E12402BA0F6D4E3 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; name = "PlayfairDisplay-Regular.ttf"; path = "../assests/fonts/PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		45C0B86684624B0FAC12DEC0 /* PlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; name = "PlayfairDisplay-SemiBold.ttf"; path = "../assests/fonts/PlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-NagarNigamAyodhya-NagarNigamAyodhyaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-NagarNigamAyodhya.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* NagarNigamAyodhyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* NagarNigamAyodhyaTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = NagarNigamAyodhyaTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* NagarNigamAyodhya */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = NagarNigamAyodhya;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-NagarNigamAyodhya.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-NagarNigamAyodhya-NagarNigamAyodhyaTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* NagarNigamAyodhya */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* NagarNigamAyodhyaTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				BBE249B9C3AA4473A3191821 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* NagarNigamAyodhya.app */,
+				00E356EE1AD99517003FC87E /* NagarNigamAyodhyaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-NagarNigamAyodhya.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-NagarNigamAyodhya.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BBE249B9C3AA4473A3191821 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				31697010C1754A9E81FD1513 /* Baloo2-VariableFont_wght.ttf */,
+				9C2DE198D6824B93A96B75B6 /* Baloo2-Bold.ttf */,
+				1B02935201FE48F48B693F0E /* Baloo2-ExtraBold.ttf */,
+				889D255C099848C39B005A6C /* Baloo2-Medium.ttf */,
+				13FB12E4F58D4716ADD259A6 /* Baloo2-Regular.ttf */,
+				5263709BC5BD433998A47964 /* Baloo2-SemiBold.ttf */,
+				2EABF721C49540A085AD30F2 /* Laila-Bold.ttf */,
+				6567980B1CAB4F2B921214FE /* Laila-Light.ttf */,
+				8326069D7F944F3F922ED255 /* Laila-Medium.ttf */,
+				1EE83DD4A5A942518B4D40FE /* Laila-Regular.ttf */,
+				CC661B69D29647EAA1A0202C /* Laila-SemiBold.ttf */,
+				3376B0F759374F4B99A4260D /* Poppins-Black.ttf */,
+				F3ACC06E55B94C3DBE4FFAFE /* Poppins-Bold.ttf */,
+				6A945B925F0341EAB85E7C3A /* Poppins-ExtraBold.ttf */,
+				4560DB3E67E845C89F8F8B4E /* Poppins-ExtraLight.ttf */,
+				54B8772660A842CFBD58F987 /* Poppins-Light.ttf */,
+				AABA309B3C9445A3BE85B3C1 /* Poppins-Medium.ttf */,
+				EFE724826C1245EB805824B6 /* Poppins-Regular.ttf */,
+				E7719F07AAEB42988B4695CA /* Poppins-SemiBold.ttf */,
+				0AB31E16F3F84C03BC885896 /* Poppins-Thin.ttf */,
+				771BB52CE90D454EA61868DF /* Roboto-Black.ttf */,
+				A8B1719828F0478DBB08D1AF /* Roboto-Bold.ttf */,
+				1C9BA41757F64D4FB20C039B /* Roboto-Light.ttf */,
+				FA58E85123F44FFD98507AA9 /* Roboto-Medium.ttf */,
+				D068C88ACEE9498E8294FBDB /* Roboto-Regular.ttf */,
+				25D5E4B851AD4C52A6730A6A /* Roboto-Thin.ttf */,
+				3A1BE59B21674931954D5B37 /* RozhaOne-Regular.ttf */,
+				5FAC0B21D48342689B8E7C55 /* Sahitya-Bold.ttf */,
+				EC385BF4DFEC41BC89FE6D94 /* Sahitya-Regular.ttf */,
+				0E53AE37306F4FCCA2C252E4 /* Sura-Bold.ttf */,
+				9F82A2A638F647C9848950DF /* Sura-Regular.ttf */,
+				39A6F2C8950A4BF197145480 /* TiroDevanagariHindi-Italic.ttf */,
+				854F4925E8104E999A5303DA /* TiroDevanagariHindi-Regular.ttf */,
+				A968DBDA1CCE459EAB9C6B69 /* VesperLibre-Black.ttf */,
+				E86695EBDD5749CA834FC71F /* VesperLibre-Bold.ttf */,
+				0DBA247B7A654EBF8504C81A /* VesperLibre-Medium.ttf */,
+				2A46E0FB6BC9439D9CC05294 /* VesperLibre-Regular.ttf */,
+				05480456C27048488D61D6A5 /* PlayfairDisplay-Black.ttf */,
+				B059C605B9844885A3EC4033 /* PlayfairDisplay-Bold.ttf */,
+				5BC155895E66447F954A5BE7 /* PlayfairDisplay-ExtraBold.ttf */,
+				C2FE8BE8B50548D3AF295C34 /* PlayfairDisplay-Medium.ttf */,
+				B1194D095E12402BA0F6D4E3 /* PlayfairDisplay-Regular.ttf */,
+				45C0B86684624B0FAC12DEC0 /* PlayfairDisplay-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* NagarNigamAyodhyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NagarNigamAyodhyaTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = NagarNigamAyodhyaTests;
+			productName = NagarNigamAyodhyaTests;
+			productReference = 00E356EE1AD99517003FC87E /* NagarNigamAyodhyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* NagarNigamAyodhya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NagarNigamAyodhya" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NagarNigamAyodhya;
+			productName = NagarNigamAyodhya;
+			productReference = 13B07F961A680F5B00A75B9A /* NagarNigamAyodhya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NagarNigamAyodhya" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* NagarNigamAyodhya */,
+				00E356ED1AD99517003FC87E /* NagarNigamAyodhyaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B58F5B8BCEAF488AABC9215A /* Baloo2-VariableFont_wght.ttf in Resources */,
+				80A0B936A06A41598CCF0CBA /* Baloo2-Bold.ttf in Resources */,
+				285549D78665448AADC89088 /* Baloo2-ExtraBold.ttf in Resources */,
+				8D0D750D60044DA7846AFC64 /* Baloo2-Medium.ttf in Resources */,
+				7FCCF2CFA6F846228103CC81 /* Baloo2-Regular.ttf in Resources */,
+				A6DB40BEE8AA40FC9867C270 /* Baloo2-SemiBold.ttf in Resources */,
+				4AF590BE743546F3B1B5473B /* Laila-Bold.ttf in Resources */,
+				7B798B3811E34B8EBC4F0D8C /* Laila-Light.ttf in Resources */,
+				C292FB3C1EC740F3A2345C35 /* Laila-Medium.ttf in Resources */,
+				78434ED0402D4CA1ADD1B357 /* Laila-Regular.ttf in Resources */,
+				01219C903C0649EC8D2D76FF /* Laila-SemiBold.ttf in Resources */,
+				6AD5F52C3B2C44348972AF24 /* Poppins-Black.ttf in Resources */,
+				E88B0A7A5B1D4ECAA95F77B7 /* Poppins-Bold.ttf in Resources */,
+				73D1D0FEFCF44A64BFE30E10 /* Poppins-ExtraBold.ttf in Resources */,
+				5ADDB4EA432D4714A01CF714 /* Poppins-ExtraLight.ttf in Resources */,
+				3FD44D34F09A4973A9AD9F9E /* Poppins-Light.ttf in Resources */,
+				7A367925706C4830A26F3155 /* Poppins-Medium.ttf in Resources */,
+				92E7B4491A5C4B33B0E4C011 /* Poppins-Regular.ttf in Resources */,
+				2869692ECE70463592A5D89C /* Poppins-SemiBold.ttf in Resources */,
+				7DFCB27EE114441BAC2118E6 /* Poppins-Thin.ttf in Resources */,
+				D1DEDE682B364266A86A9326 /* Roboto-Black.ttf in Resources */,
+				6874EB4FB52B4135994527A4 /* Roboto-Bold.ttf in Resources */,
+				80225F79677B41788A3ACE1B /* Roboto-Light.ttf in Resources */,
+				1B5D3C1BE2154B98AED802D4 /* Roboto-Medium.ttf in Resources */,
+				2FE57C42C937492E97A0D3AD /* Roboto-Regular.ttf in Resources */,
+				3591B6EF73144478BA254BFB /* Roboto-Thin.ttf in Resources */,
+				5FA0FC2051CE4F59A10220AC /* RozhaOne-Regular.ttf in Resources */,
+				A29C1E98159C4F9A828E1FC0 /* Sahitya-Bold.ttf in Resources */,
+				F14E69E579664F48820651E0 /* Sahitya-Regular.ttf in Resources */,
+				A21A786EB9474EDE98335A6B /* Sura-Bold.ttf in Resources */,
+				74A57DB66D8240ABBC187B06 /* Sura-Regular.ttf in Resources */,
+				EAD76E6C0FAA48FB9CBA636D /* TiroDevanagariHindi-Italic.ttf in Resources */,
+				3C31592BDFEF4373A9B59889 /* TiroDevanagariHindi-Regular.ttf in Resources */,
+				09E7954D9E6B4A0C92D3D7EB /* VesperLibre-Black.ttf in Resources */,
+				6D23FF51AADB47D2BD6AA3F9 /* VesperLibre-Bold.ttf in Resources */,
+				3D3E63732D0647639BE23E1A /* VesperLibre-Medium.ttf in Resources */,
+				41E3A6C1393B4A41BB21EEF7 /* VesperLibre-Regular.ttf in Resources */,
+				8D035FCBAD714DD88718C886 /* PlayfairDisplay-Black.ttf in Resources */,
+				3A9D9A2CA9FD44E5A74A75DB /* PlayfairDisplay-Bold.ttf in Resources */,
+				2976875DB98F45F6B2F7FF78 /* PlayfairDisplay-ExtraBold.ttf in Resources */,
+				ED769205B2F24645AE029F7E /* PlayfairDisplay-Medium.ttf in Resources */,
+				E5CD5F7901C145408220E41E /* PlayfairDisplay-Regular.ttf in Resources */,
+				D5150E51CACB4FC1AF953741 /* PlayfairDisplay-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NagarNigamAyodhya/Pods-NagarNigamAyodhya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NagarNigamAyodhya/Pods-NagarNigamAyodhya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NagarNigamAyodhya/Pods-NagarNigamAyodhya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NagarNigamAyodhya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NagarNigamAyodhya/Pods-NagarNigamAyodhya-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NagarNigamAyodhya/Pods-NagarNigamAyodhya-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NagarNigamAyodhya/Pods-NagarNigamAyodhya-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests/Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* NagarNigamAyodhyaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* NagarNigamAyodhya */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NagarNigamAyodhyaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NagarNigamAyodhya.app/NagarNigamAyodhya";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-NagarNigamAyodhya-NagarNigamAyodhyaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = NagarNigamAyodhyaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NagarNigamAyodhya.app/NagarNigamAyodhya";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-NagarNigamAyodhya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NagarNigamAyodhya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = NagarNigamAyodhya;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-NagarNigamAyodhya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = NagarNigamAyodhya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = NagarNigamAyodhya;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NagarNigamAyodhyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NagarNigamAyodhya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NagarNigamAyodhya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

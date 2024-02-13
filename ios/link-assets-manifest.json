@@ -1,0 +1,177 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assests/fonts/Baloo2-Bold.ttf",
+      "sha1": "76d9d9015ec3a706d5adcdf6452b23578c732f8c"
+    },
+    {
+      "path": "assests/fonts/Baloo2-ExtraBold.ttf",
+      "sha1": "e5fb953400027a22a1750b3b0c2c2019718da5b0"
+    },
+    {
+      "path": "assests/fonts/Baloo2-Medium.ttf",
+      "sha1": "a2d048736a1c9f8e2b01b1ecaa3de1db75a997db"
+    },
+    {
+      "path": "assests/fonts/Baloo2-Regular.ttf",
+      "sha1": "b183afe8d0c5f9c47865b7fe251e3783c80e5005"
+    },
+    {
+      "path": "assests/fonts/Baloo2-SemiBold.ttf",
+      "sha1": "a9bb32a0834f36b1185201f25fbe156715db804f"
+    },
+    {
+      "path": "assests/fonts/Baloo2-VariableFont_wght.ttf",
+      "sha1": "d68d5a378b9ef2f142a65adcbd19e74066fef5a7"
+    },
+    {
+      "path": "assests/fonts/Laila-Bold.ttf",
+      "sha1": "a7964791f62250f90cff8e805bdccafd9ed325cc"
+    },
+    {
+      "path": "assests/fonts/Laila-Light.ttf",
+      "sha1": "157903c58679e1b8e71ca515e7e001fba722d05f"
+    },
+    {
+      "path": "assests/fonts/Laila-Medium.ttf",
+      "sha1": "78748dfe35a05eb316dacb93d41541339b9502f1"
+    },
+    {
+      "path": "assests/fonts/Laila-Regular.ttf",
+      "sha1": "fab8dcdeacb178dd7a1eccc76768bd810b7d5f1d"
+    },
+    {
+      "path": "assests/fonts/Laila-SemiBold.ttf",
+      "sha1": "960988f7ded06a8580ed5b87543356c76eb5eeaa"
+    },
+    {
+      "path": "assests/fonts/PlayfairDisplay-Black.ttf",
+      "sha1": "8447710fac88b58e7f3b6f034ceda7eb3a036f4c"
+    },
+    {
+      "path": "assests/fonts/PlayfairDisplay-Bold.ttf",
+      "sha1": "fb74d7e889a2c24dc08d5b931c620d47e607d11a"
+    },
+    {
+      "path": "assests/fonts/PlayfairDisplay-ExtraBold.ttf",
+      "sha1": "a65d3cc7e11169ae1bfc88db81005077afd020d2"
+    },
+    {
+      "path": "assests/fonts/PlayfairDisplay-Medium.ttf",
+      "sha1": "8bf13110d20940f886ae02a07ec6068f4028740d"
+    },
+    {
+      "path": "assests/fonts/PlayfairDisplay-Regular.ttf",
+      "sha1": "96a2e660869a872971935d18105d64eadd693ddb"
+    },
+    {
+      "path": "assests/fonts/PlayfairDisplay-SemiBold.ttf",
+      "sha1": "b50e2c15ddb338b15f08df6c2c37ce35f698148f"
+    },
+    {
+      "path": "assests/fonts/Poppins-Black.ttf",
+      "sha1": "645e04c53c6b5b35bce654a811ebce16af8aa721"
+    },
+    {
+      "path": "assests/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "assests/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "4b5c0750f073abd576413a0898d3b95adaf199c8"
+    },
+    {
+      "path": "assests/fonts/Poppins-ExtraLight.ttf",
+      "sha1": "85af6582a7e6155917c605f9d3fed68c02b23b06"
+    },
+    {
+      "path": "assests/fonts/Poppins-Light.ttf",
+      "sha1": "e247a92158e112f8bf7b638c8d95381d66b00dbb"
+    },
+    {
+      "path": "assests/fonts/Poppins-Medium.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "assests/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "assests/fonts/Poppins-SemiBold.ttf",
+      "sha1": "8a4ace9392d06bcb7f8ea2f5169b07e4c383a90d"
+    },
+    {
+      "path": "assests/fonts/Poppins-Thin.ttf",
+      "sha1": "09ba4dcd5509c8085bf88c665dcc51cbdfced27b"
+    },
+    {
+      "path": "assests/fonts/Roboto-Black.ttf",
+      "sha1": "3f8e401d808f6ce84b542266726514ac8be73171"
+    },
+    {
+      "path": "assests/fonts/Roboto-Bold.ttf",
+      "sha1": "62442a18a9fe9457c1afeabf683d263a691b7798"
+    },
+    {
+      "path": "assests/fonts/Roboto-Light.ttf",
+      "sha1": "18788c5d630fa695f9283f6393bfa541b2031508"
+    },
+    {
+      "path": "assests/fonts/Roboto-Medium.ttf",
+      "sha1": "3c6a09fcc6a454924c81af7dff94fc6d399ed79b"
+    },
+    {
+      "path": "assests/fonts/Roboto-Regular.ttf",
+      "sha1": "56c5c0d38bde4c1f1549dda43db37b09c608aad3"
+    },
+    {
+      "path": "assests/fonts/Roboto-Thin.ttf",
+      "sha1": "58c733e22bceeaf9609ce578eca92ac303c6d92f"
+    },
+    {
+      "path": "assests/fonts/RozhaOne-Regular.ttf",
+      "sha1": "64cdb8660af894945802ffb44e237c735fb82596"
+    },
+    {
+      "path": "assests/fonts/Sahitya-Bold.ttf",
+      "sha1": "eea8be8c0f0a23bdb162e2808a8a6b9cd5302e9c"
+    },
+    {
+      "path": "assests/fonts/Sahitya-Regular.ttf",
+      "sha1": "7dd04564aa54f4d723eac1df455b59fa3d491595"
+    },
+    {
+      "path": "assests/fonts/Sura-Bold.ttf",
+      "sha1": "d2c63c9178812baf20a345c5bb32ad97a49756d2"
+    },
+    {
+      "path": "assests/fonts/Sura-Regular.ttf",
+      "sha1": "b0c95ca558255bc3db9fff85f782184030d326c1"
+    },
+    {
+      "path": "assests/fonts/TiroDevanagariHindi-Italic.ttf",
+      "sha1": "19b36ecc6a9c104c91635b51be61389709eeb7b5"
+    },
+    {
+      "path": "assests/fonts/TiroDevanagariHindi-Regular.ttf",
+      "sha1": "ef67b6ecb1d5ef20f309aab707098afbec5babbb"
+    },
+    {
+      "path": "assests/fonts/VesperLibre-Black.ttf",
+      "sha1": "b63497f63286454ad67a29e14a21e08e8f37f2c1"
+    },
+    {
+      "path": "assests/fonts/VesperLibre-Bold.ttf",
+      "sha1": "f8e31b2da4200ae3fd97e37c1613769c6fbf53ea"
+    },
+    {
+      "path": "assests/fonts/VesperLibre-Medium.ttf",
+      "sha1": "ee7bebfe636c6e805bbb4e8423a529f5789fc83a"
+    },
+    {
+      "path": "assests/fonts/VesperLibre-Regular.ttf",
+      "sha1": "4ba484adea079fa4b89a4b651ce3d1eb88025ffe"
+    }
+  ]
+}
