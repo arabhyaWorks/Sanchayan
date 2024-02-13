@@ -18,7 +18,7 @@ This project comes with the following pre-integrated features:
 Clone the project
 
 ```bash
-  git clone https://github.com/Arabhya07092007/React-Native-Starter-Package.git
+  git clone https://github.com/Arabhya07092007/Sanchayan.git
 ```
 
 Go to the project directory
