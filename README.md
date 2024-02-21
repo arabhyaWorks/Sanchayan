@@ -24,7 +24,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd react-native-starter-package
+  cd Sanchayan
 ```
 
 Install dependencies
