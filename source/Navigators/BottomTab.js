@@ -7,7 +7,7 @@ import {
   FoodIcon,
   TicketsIcons,
 } from '../components/SvgIcon';
-import About from '../Home/About';
+import About from '../Home/HomeScreen';
 
 const Tab = createBottomTabNavigator();
 
